@@ -56,7 +56,8 @@ print(quiz_brain.getCorrectAnswer());
 
 <h3>Example Code </h3>
 <br>
-```
+
+```dart
 import 'package:flutter/material.dart';
 import 'package:quiz_bank/quiz_bank.dart';
 
@@ -127,8 +128,8 @@ class _QuestionPageState extends State<QuestionPage> {
         ])));
   }
 }
-
 ```
+
 ## Contributions
 * If you **found a bug**, open an issue.
 * If you **have a feature request**, open an issue.
