@@ -1,6 +1,4 @@
-## 0.0.1
+## 0.0.2
 
-- Single line True False question generator
-- Super customizable
-	- Randomize the questions
-	- Add your own questions
+- Updated Readme File
+	- Added Example and Img, Gif.
