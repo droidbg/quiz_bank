@@ -131,9 +131,9 @@ class _QuestionPageState extends State<QuestionPage> {
 ```
 <br><br>
 <h3>Output</h3>
-
+<p align="center">
 ![Output](https://raw.githubusercontent.com/droidbg/quiz_bank/master/readme-assests/demo.gif)
-
+</p>
 
 ## Contributions
 * If you **found a bug**, open an issue.
