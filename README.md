@@ -129,6 +129,11 @@ class _QuestionPageState extends State<QuestionPage> {
   }
 }
 ```
+<br><br>
+<h3>Output</h3>
+
+![Output](https://raw.githubusercontent.com/droidbg/quiz_bank/master/readme-assests/demo.gif)
+
 
 ## Contributions
 * If you **found a bug**, open an issue.
