@@ -2,12 +2,12 @@
 
 A package containing the general quiz questions based on True False. Quiz Bank is super easy to use TRUE FALSE based question bank for Flutter. You may add your own quiz questions in addition to the existing one.
 
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://pub.dartlang.org/packages/quiz_bank)
+[![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://pub.dartlang.org/packages/quiz_bank)
 
 
 
 <p align="center">
-<img src=""> 
+<img src="https://raw.githubusercontent.com/droidbg/quiz_bank/master/readme-assests/demo.gif">
 </p>
 
 
