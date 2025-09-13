@@ -14,6 +14,10 @@ A simple Flutter package for true/false quiz questions. Perfect for educational 
 - 🔄 **Quiz Management** - Navigate questions, track scores, shuffle
 - ➕ **Custom Questions** - Add your own questions
 
+## 📸 Demo
+
+![Quiz Bank Demo](readme-assests/demo.gif)
+
 ## 🚀 Quick Start
 
 ### 1. Install the package
@@ -95,7 +99,11 @@ class _MyQuizAppState extends State<MyQuizApp> {
 
 ## 📱 Example App
 
-Check out the `example/` directory for a complete, simple quiz app that shows how to use the package.
+Check out the [`example/`](example/) directory for a complete, simple quiz app that shows how to use the package.
+
+![Quiz Example](readme-assests/quiz-example.png)
+
+![Quiz Example 2](readme-assests/quiz-example-1.png)
 
 ## 🎯 More Features
 
