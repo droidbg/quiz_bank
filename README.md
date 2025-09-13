@@ -16,8 +16,14 @@ A simple Flutter package for true/false quiz questions. Perfect for educational 
 
 ## 🚀 Quick Start
 
-### 1. Add to pubspec.yaml
+### 1. Install the package
 
+**Option A: Using flutter pub add (recommended)**
+```bash
+flutter pub add quiz_bank
+```
+
+**Option B: Add to pubspec.yaml**
 ```yaml
 dependencies:
   quiz_bank: ^1.0.0
@@ -93,29 +99,115 @@ Check out the `example/` directory for a complete, simple quiz app that shows ho
 
 ## 🎯 More Features
 
-### Different Quiz Types
+### 📚 Question Categories
+
+Get questions from specific topics:
 
 ```dart
 // Science questions only
 final scienceQuiz = QuizBrain.fromCategory('Science');
 
-// Easy questions only  
-final easyQuiz = QuizBrain.fromDifficulty(1);
+// Technology questions
+final techQuiz = QuizBrain.fromCategory('Technology');
 
-// Custom questions
-final customQuiz = QuizBrain(questions: [
-  Question(text: 'Is Flutter awesome?', answer: true),
-]);
+// Geography questions  
+final geoQuiz = QuizBrain.fromCategory('Geography');
 ```
 
-### Quiz Controls
+**Available categories:** Science, Technology, Geography, History, Nature, Sports, Entertainment, Food, Health, General
+
+### 🎚️ Difficulty Levels
+
+Choose how hard you want the questions:
 
 ```dart
-quiz.nextQuestion();        // Next question
-quiz.previousQuestion();    // Previous question  
-quiz.randomQuestion();      // Random question
-quiz.shuffleQuestions();    // Shuffle all questions
-quiz.reset();              // Start over
+// Easy questions (Level 1)
+final easyQuiz = QuizBrain.fromDifficulty(1);
+
+// Medium questions (Level 3)
+final mediumQuiz = QuizBrain.fromDifficulty(3);
+
+// Hard questions (Level 5)
+final hardQuiz = QuizBrain.fromDifficulty(5);
+```
+
+**Difficulty levels:** 1 (Easy) to 5 (Hard)
+
+### 🔀 Quiz Controls
+
+Navigate and manage your quiz:
+
+```dart
+quiz.nextQuestion();        // Go to next question
+quiz.previousQuestion();    // Go back to previous question  
+quiz.randomQuestion();      // Jump to random question
+quiz.shuffleQuestions();    // Mix up all questions
+quiz.reset();              // Start over from beginning
+```
+
+### ➕ Custom Questions
+
+Add your own questions:
+
+```dart
+// Create quiz with your questions
+final myQuiz = QuizBrain(questions: [
+  Question(text: 'Is Flutter awesome?', answer: true),
+  Question(text: 'Dart is easy to learn?', answer: true),
+]);
+
+// Add questions to existing quiz
+quiz.addQuestion(Question(text: 'New question?', answer: false));
+```
+
+### 📊 Quiz Information
+
+Get details about your quiz:
+
+```dart
+print('Total questions: ${quiz.totalQuestions}');
+print('Current question: ${quiz.currentQuestionNumber}');
+print('Is finished: ${quiz.isFinished}');
+print('Has next question: ${quiz.hasNextQuestion}');
+```
+
+### 🏷️ Question Details
+
+Get extra information about the current question:
+
+```dart
+// Basic question info
+print('Question: ${quiz.questionText}');
+print('Answer: ${quiz.correctAnswer}');
+
+// Extra details (if available)
+print('Category: ${quiz.currentCategory}');        // e.g., "Science"
+print('Difficulty: ${quiz.currentDifficulty}');    // e.g., 3
+print('Explanation: ${quiz.currentExplanation}');  // e.g., "Because..."
+print('Source: ${quiz.currentSource}');            // e.g., "Wikipedia"
+```
+
+### 🎯 Combine Features
+
+Mix and match different features:
+
+```dart
+// Easy science questions only
+final easyScienceQuiz = QuizBrain.fromCategoryAndDifficulty('Science', 1);
+
+// Shuffle all questions
+final shuffledQuiz = QuizBrain(shuffle: true);
+
+// Custom questions with categories
+final customQuiz = QuizBrain(questions: [
+  Question(
+    text: 'Is Flutter cross-platform?', 
+    answer: true,
+    category: 'Technology',
+    difficulty: 2,
+    explanation: 'Flutter works on iOS, Android, Web, and Desktop!',
+  ),
+]);
 ```
 
 ## 📚 API Reference
