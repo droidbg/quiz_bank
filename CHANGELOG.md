@@ -1,3 +1,19 @@
+## 1.0.1
+
+### 🔧 Patch Release - Pub.dev Score Improvements
+
+#### 📝 Changes
+- **Description Optimization**: Shortened package description to meet pub.dev character limits (60-180 chars)
+- **Code Formatting**: Applied Dart formatter to all source files for consistent code style
+- **Pub.dev Compliance**: Improved package score by addressing formatting and metadata issues
+
+#### 🎯 Impact
+- Better discoverability on pub.dev with optimized description
+- Consistent code formatting across the entire codebase
+- Improved package quality score on pub.dev
+
+---
+
 ## 1.0.0
 
 ### 🎉 Major Release - Complete Refactor
