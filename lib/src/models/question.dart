@@ -1,23 +1,5 @@
 /// Represents a quiz question with its text, answer, and metadata.
 class Question {
-  /// The question text to display to the user.
-  final String text;
-
-  /// The correct answer (true or false).
-  final bool answer;
-
-  /// Optional category for organizing questions.
-  final String? category;
-
-  /// Optional difficulty level (1-5, where 5 is hardest).
-  final int? difficulty;
-
-  /// Optional explanation for the answer.
-  final String? explanation;
-
-  /// Optional source or reference for the question.
-  final String? source;
-
   /// Creates a new [Question] instance.
   const Question({
     required this.text,
@@ -39,6 +21,24 @@ class Question {
       source: map['source'] as String?,
     );
   }
+
+  /// The question text to display to the user.
+  final String text;
+
+  /// The correct answer (true or false).
+  final bool answer;
+
+  /// Optional category for organizing questions.
+  final String? category;
+
+  /// Optional difficulty level (1-5, where 5 is hardest).
+  final int? difficulty;
+
+  /// Optional explanation for the answer.
+  final String? explanation;
+
+  /// Optional source or reference for the question.
+  final String? source;
 
   /// Converts this [Question] to a map (useful for JSON serialization).
   Map<String, dynamic> toMap() {

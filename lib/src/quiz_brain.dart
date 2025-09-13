@@ -4,24 +4,21 @@ import 'data/question_bank.dart';
 
 /// Exception thrown when quiz operations fail.
 class QuizException implements Exception {
-  final String message;
   const QuizException(this.message);
+  final String message;
   
   @override
   String toString() => 'QuizException: $message';
 }
 
 /// A comprehensive quiz management system with advanced features.
+///
+/// This class manages the state of a quiz, including the list of questions,
+/// the current question index, and user progress. It provides methods for
+/// navigating through the quiz, checking answers, and getting quiz information.
 class QuizBrain {
-  final List<Question> _questions;
-  final Random _random = Random();
-  
-  int _currentQuestionIndex = 0;
-  bool _isShuffled = false;
-  final Set<int> _usedQuestions = <int>{};
-
   /// Creates a new [QuizBrain] instance.
-  /// 
+  ///
   /// [questions] - Optional list of custom questions. If not provided, uses the default question bank.
   /// [shuffle] - Whether to shuffle the questions initially.
   QuizBrain({
@@ -63,6 +60,13 @@ class QuizBrain {
     }
     return QuizBrain(questions: List<Question>.from(questions), shuffle: shuffle);
   }
+
+  final List<Question> _questions;
+  final Random _random = Random();
+  
+  int _currentQuestionIndex = 0;
+  bool _isShuffled = false;
+  final Set<int> _usedQuestions = <int>{};
 
   /// The total number of questions in the quiz.
   int get totalQuestions => _questions.length;
@@ -317,7 +321,7 @@ class QuizBrain {
   /// 
   /// **Deprecated:** Use `randomQuestion()` instead.
   @Deprecated('Use randomQuestion() instead. This will be removed in version 2.0.0')
-  void RandomQuestion() {
+  void randomQuestionLegacy() {
     randomQuestion();
   }
 
