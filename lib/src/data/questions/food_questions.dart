@@ -6,14 +6,16 @@ const List<Question> _foodQuestions = [
     answer: true,
     category: 'Food',
     difficulty: 2,
-    explanation: 'Honey has natural preservatives and low moisture content, making it virtually impossible to spoil.',
+    explanation:
+        'Honey has natural preservatives and low moisture content, making it virtually impossible to spoil.',
   ),
   Question(
     text: 'Carrots improve your eyesight',
     answer: false,
     category: 'Food',
     difficulty: 2,
-    explanation: 'While carrots contain vitamin A which is good for eye health, they don\'t actually improve eyesight beyond normal levels.',
+    explanation:
+        'While carrots contain vitamin A which is good for eye health, they don\'t actually improve eyesight beyond normal levels.',
   ),
   Question(
     text: 'The tomato is a vegetable',
@@ -27,7 +29,8 @@ const List<Question> _foodQuestions = [
     answer: true,
     category: 'Food',
     difficulty: 1,
-    explanation: 'The potato is a starchy tuberous crop from the perennial nightshade Solanum tuberosum.',
+    explanation:
+        'The potato is a starchy tuberous crop from the perennial nightshade Solanum tuberosum.',
   ),
   Question(
     text: 'The peanut is a nut',

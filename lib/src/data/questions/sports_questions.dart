@@ -6,21 +6,24 @@ const List<Question> _sportsQuestions = [
     answer: true,
     category: 'Sports',
     difficulty: 3,
-    explanation: 'Traditional soccer balls have 32 panels - 12 pentagons and 20 hexagons.',
+    explanation:
+        'Traditional soccer balls have 32 panels - 12 pentagons and 20 hexagons.',
   ),
   Question(
     text: 'The Olympics were held every year until 1992',
     answer: false,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The Olympics have been held every four years since 1896, with some exceptions for world wars.',
+    explanation:
+        'The Olympics have been held every four years since 1896, with some exceptions for world wars.',
   ),
   Question(
     text: 'A standard basketball hoop is 10 feet high',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'The rim of a standard basketball hoop is 10 feet (3.05 meters) above the ground.',
+    explanation:
+        'The rim of a standard basketball hoop is 10 feet (3.05 meters) above the ground.',
   ),
   Question(
     text: 'The game of baseball has 9 innings',
@@ -30,7 +33,8 @@ const List<Question> _sportsQuestions = [
     explanation: 'A professional baseball game consists of 9 innings.',
   ),
   Question(
-    text: 'The Super Bowl is the championship game of the National Football League (NFL)',
+    text:
+        'The Super Bowl is the championship game of the National Football League (NFL)',
     answer: true,
     category: 'Sports',
     difficulty: 1,
@@ -41,279 +45,329 @@ const List<Question> _sportsQuestions = [
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'The Tour de France is an annual men\'s multiple stage bicycle race primarily held in France.',
+    explanation:
+        'The Tour de France is an annual men\'s multiple stage bicycle race primarily held in France.',
   ),
   Question(
-    text: 'The Stanley Cup is the championship trophy of the National Hockey League (NHL)',
+    text:
+        'The Stanley Cup is the championship trophy of the National Hockey League (NHL)',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The Stanley Cup is the championship trophy awarded annually to the NHL playoff winner.',
+    explanation:
+        'The Stanley Cup is the championship trophy awarded annually to the NHL playoff winner.',
   ),
   Question(
     text: 'The FIFA World Cup is held every 4 years',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'The FIFA World Cup is an international association football competition contested by the senior men\'s national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport\'s global governing body.',
+    explanation:
+        'The FIFA World Cup is an international association football competition contested by the senior men\'s national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport\'s global governing body.',
   ),
   Question(
     text: 'The Masters Tournament is a major golf championship',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The Masters Tournament is one of the four major championships in professional golf.',
+    explanation:
+        'The Masters Tournament is one of the four major championships in professional golf.',
   ),
   Question(
     text: 'Wimbledon is a major tennis tournament',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The Championships, Wimbledon, commonly known simply as Wimbledon or The Championships, is the oldest tennis tournament in the world and is regarded by many as the most prestigious.',
+    explanation:
+        'The Championships, Wimbledon, commonly known simply as Wimbledon or The Championships, is the oldest tennis tournament in the world and is regarded by many as the most prestigious.',
   ),
   Question(
     text: 'The Kentucky Derby is a famous horse race',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The Kentucky Derby is a horse race held annually in Louisville, Kentucky, United States, on the first Saturday in May, capping the two-week-long Kentucky Derby Festival.',
+    explanation:
+        'The Kentucky Derby is a horse race held annually in Louisville, Kentucky, United States, on the first Saturday in May, capping the two-week-long Kentucky Derby Festival.',
   ),
   Question(
     text: 'The Daytona 500 is a famous car race',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The Daytona 500 is a 500-mile-long (805 km) NASCAR Cup Series motor race held annually at Daytona International Speedway in Daytona Beach, Florida.',
+    explanation:
+        'The Daytona 500 is a 500-mile-long (805 km) NASCAR Cup Series motor race held annually at Daytona International Speedway in Daytona Beach, Florida.',
   ),
   Question(
     text: 'The Boston Marathon is the world\'s oldest annual marathon',
     answer: true,
     category: 'Sports',
     difficulty: 3,
-    explanation: 'The Boston Marathon is an annual marathon race hosted by several cities in greater Boston in eastern Massachusetts, United States.',
+    explanation:
+        'The Boston Marathon is an annual marathon race hosted by several cities in greater Boston in eastern Massachusetts, United States.',
   ),
   Question(
     text: 'The America\'s Cup is a famous sailing race',
     answer: true,
     category: 'Sports',
     difficulty: 3,
-    explanation: 'The America\'s Cup, informally known as the Auld Mug, is a trophy awarded to the winner of the America\'s Cup match races between two sailing yachts.',
+    explanation:
+        'The America\'s Cup, informally known as the Auld Mug, is a trophy awarded to the winner of the America\'s Cup match races between two sailing yachts.',
   ),
   Question(
     text: 'The Cricket World Cup is held every 4 years',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The ICC Cricket World Cup is the international championship of One Day International (ODI) cricket.',
+    explanation:
+        'The ICC Cricket World Cup is the international championship of One Day International (ODI) cricket.',
   ),
   Question(
     text: 'The Rugby World Cup is held every 4 years',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'The Rugby World Cup is a men\'s rugby union tournament contested every four years between the top international teams.',
+    explanation:
+        'The Rugby World Cup is a men\'s rugby union tournament contested every four years between the top international teams.',
   ),
   Question(
     text: 'The NBA is the top professional basketball league in the world',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'The National Basketball Association (NBA) is a professional basketball league in North America.',
+    explanation:
+        'The National Basketball Association (NBA) is a professional basketball league in North America.',
   ),
   Question(
     text: 'The MLB is the top professional baseball league in the world',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'Major League Baseball (MLB) is a professional baseball organization and the oldest of the major professional sports leagues in the United States and Canada.',
+    explanation:
+        'Major League Baseball (MLB) is a professional baseball organization and the oldest of the major professional sports leagues in the United States and Canada.',
   ),
   Question(
     text: 'The MLS is the top professional soccer league in the world',
     answer: false,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'While Major League Soccer (MLS) is the top professional soccer league in the United States, leagues in Europe are generally considered to be of a higher quality.',
+    explanation:
+        'While Major League Soccer (MLS) is the top professional soccer league in the United States, leagues in Europe are generally considered to be of a higher quality.',
   ),
   Question(
     text: 'A marathon is 26.2 miles long',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A marathon is a long-distance race with an official distance of 42.195 kilometres (26 miles 385 yards), usually run as a road race.',
+    explanation:
+        'A marathon is a long-distance race with an official distance of 42.195 kilometres (26 miles 385 yards), usually run as a road race.',
   ),
   Question(
     text: 'A hat-trick in soccer is when a player scores 3 goals in a game',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A hat-trick or hat trick is the achievement of a positive feat three times in a game, or another achievement based on the number three.',
+    explanation:
+        'A hat-trick or hat trick is the achievement of a positive feat three times in a game, or another achievement based on the number three.',
   ),
   Question(
-    text: 'A perfect game in baseball is when a pitcher throws a complete game without allowing any opposing player to reach base',
+    text:
+        'A perfect game in baseball is when a pitcher throws a complete game without allowing any opposing player to reach base',
     answer: true,
     category: 'Sports',
     difficulty: 3,
-    explanation: 'A perfect game is a complete game pitched by a single pitcher that lasts a minimum of nine innings and in which no opposing batter reaches base.',
+    explanation:
+        'A perfect game is a complete game pitched by a single pitcher that lasts a minimum of nine innings and in which no opposing batter reaches base.',
   ),
   Question(
-    text: 'A grand slam in tennis is winning all 4 major tournaments in a calendar year',
+    text:
+        'A grand slam in tennis is winning all 4 major tournaments in a calendar year',
     answer: true,
     category: 'Sports',
     difficulty: 3,
-    explanation: 'A Grand Slam is the achievement of winning all four major championships in one discipline in the same calendar year.',
+    explanation:
+        'A Grand Slam is the achievement of winning all four major championships in one discipline in the same calendar year.',
   ),
   Question(
-    text: 'A hole-in-one in golf is when a player gets the ball in the hole with a single stroke',
+    text:
+        'A hole-in-one in golf is when a player gets the ball in the hole with a single stroke',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A hole in one or hole-in-one (also known as an ace, mostly in North America) is when a player hits the ball directly from the tee into the cup with one shot.',
+    explanation:
+        'A hole in one or hole-in-one (also known as an ace, mostly in North America) is when a player hits the ball directly from the tee into the cup with one shot.',
   ),
   Question(
-    text: 'A strike in bowling is when a player knocks down all 10 pins with the first ball of a frame',
+    text:
+        'A strike in bowling is when a player knocks down all 10 pins with the first ball of a frame',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A strike is a term used in bowling to indicate that all of the pins have been knocked down on the first ball of a frame.',
+    explanation:
+        'A strike is a term used in bowling to indicate that all of the pins have been knocked down on the first ball of a frame.',
   ),
   Question(
-    text: 'A spare in bowling is when a player knocks down all 10 pins with two balls in a frame',
+    text:
+        'A spare in bowling is when a player knocks down all 10 pins with two balls in a frame',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A spare is a term used in bowling to indicate that all of the pins have been knocked down during the second ball of a frame.',
+    explanation:
+        'A spare is a term used in bowling to indicate that all of the pins have been knocked down during the second ball of a frame.',
   ),
   Question(
     text: 'A touchdown in American football is worth 6 points',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A touchdown is a scoring play in American and Canadian football.',
+    explanation:
+        'A touchdown is a scoring play in American and Canadian football.',
   ),
   Question(
     text: 'A field goal in American football is worth 3 points',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A field goal (FG) is a means of scoring in gridiron football.',
+    explanation:
+        'A field goal (FG) is a means of scoring in gridiron football.',
   ),
   Question(
     text: 'A safety in American football is worth 2 points',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'In gridiron football, a safety is a scoring play that results in two points being awarded to the scoring team.',
+    explanation:
+        'In gridiron football, a safety is a scoring play that results in two points being awarded to the scoring team.',
   ),
   Question(
-    text: 'A home run in baseball is when a batter hits the ball out of the park and scores a run',
+    text:
+        'A home run in baseball is when a batter hits the ball out of the park and scores a run',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'In baseball, a home run is a fair ball hit out of the playing field.',
+    explanation:
+        'In baseball, a home run is a fair ball hit out of the playing field.',
   ),
   Question(
     text: 'A grand slam in baseball is a home run hit with the bases loaded',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A grand slam is a home run hit with a runner on each of the three bases.',
+    explanation:
+        'A grand slam is a home run hit with a runner on each of the three bases.',
   ),
   Question(
     text: 'A slam dunk in basketball is worth 2 points',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A slam dunk, also simply dunk, is a type of basketball shot that is performed when a player jumps in the air, controls the ball above the horizontal plane of the rim, and scores by putting the ball directly through the basket with one or both hands.',
+    explanation:
+        'A slam dunk, also simply dunk, is a type of basketball shot that is performed when a player jumps in the air, controls the ball above the horizontal plane of the rim, and scores by putting the ball directly through the basket with one or both hands.',
   ),
   Question(
     text: 'A free throw in basketball is worth 1 point',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'In basketball, free throws are unopposed attempts to score points by shooting from behind the free throw line.',
+    explanation:
+        'In basketball, free throws are unopposed attempts to score points by shooting from behind the free throw line.',
   ),
   Question(
     text: 'A three-point field goal in basketball is worth 3 points',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A three-point field goal is a field goal in a basketball game made from beyond the three-point line, a designated arc radiating from the basket.',
+    explanation:
+        'A three-point field goal is a field goal in a basketball game made from beyond the three-point line, a designated arc radiating from the basket.',
   ),
   Question(
     text: 'A penalty kick in soccer is taken from 12 yards out',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A penalty kick is a type of direct free kick in association football, taken from the penalty spot, which is 12 yards from the goal line.',
+    explanation:
+        'A penalty kick is a type of direct free kick in association football, taken from the penalty spot, which is 12 yards from the goal line.',
   ),
   Question(
-    text: 'A corner kick in soccer is awarded when the defending team puts the ball out of play over the goal line',
+    text:
+        'A corner kick in soccer is awarded when the defending team puts the ball out of play over the goal line',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A corner kick is a method of restarting play in a game of association football.',
+    explanation:
+        'A corner kick is a method of restarting play in a game of association football.',
   ),
   Question(
-    text: 'A throw-in in soccer is awarded when the ball goes out of play over the touchline',
+    text:
+        'A throw-in in soccer is awarded when the ball goes out of play over the touchline',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A throw-in is a method of restarting play in a game of football when the ball has exited the side of the field of play.',
+    explanation:
+        'A throw-in is a method of restarting play in a game of football when the ball has exited the side of the field of play.',
   ),
   Question(
-    text: 'An offside in soccer is a rule that limits the ability of attacking players to be ahead of the ball',
+    text:
+        'An offside in soccer is a rule that limits the ability of attacking players to be ahead of the ball',
     answer: true,
     category: 'Sports',
     difficulty: 3,
-    explanation: 'A player is in an offside position if they are nearer to the opponent\'s goal line than both the ball and the second-last opponent.',
+    explanation:
+        'A player is in an offside position if they are nearer to the opponent\'s goal line than both the ball and the second-last opponent.',
   ),
   Question(
     text: 'A yellow card in soccer is a warning to a player',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A yellow card is shown by the referee to indicate that a player has been officially cautioned.',
+    explanation:
+        'A yellow card is shown by the referee to indicate that a player has been officially cautioned.',
   ),
   Question(
     text: 'A red card in soccer results in the player being sent off the field',
     answer: true,
     category: 'Sports',
     difficulty: 1,
-    explanation: 'A red card is shown by a referee to signify that a player has been sent off.',
+    explanation:
+        'A red card is shown by a referee to signify that a player has been sent off.',
   ),
   Question(
     text: 'A try in rugby is worth 5 points',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A try is the primary method of scoring in rugby league and rugby union football.',
+    explanation:
+        'A try is the primary method of scoring in rugby league and rugby union football.',
   ),
   Question(
     text: 'A conversion in rugby is worth 2 points',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A conversion is a kick at goal awarded to a team that has just scored a try.',
+    explanation:
+        'A conversion is a kick at goal awarded to a team that has just scored a try.',
   ),
   Question(
     text: 'A penalty in rugby is worth 3 points',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A penalty kick is a kick at goal awarded to a team that has been infringed by the opposition.',
+    explanation:
+        'A penalty kick is a kick at goal awarded to a team that has been infringed by the opposition.',
   ),
   Question(
     text: 'A drop goal in rugby is worth 3 points',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A drop goal is a method of scoring a goal in rugby union and rugby league.',
+    explanation:
+        'A drop goal is a method of scoring a goal in rugby union and rugby league.',
   ),
   Question(
     text: 'A scrum in rugby is a way to restart play',
     answer: true,
     category: 'Sports',
     difficulty: 2,
-    explanation: 'A scrum is a method of restarting play in rugby football that involves players packing closely together with their heads down and attempting to gain possession of the ball.',
+    explanation:
+        'A scrum is a method of restarting play in rugby football that involves players packing closely together with their heads down and attempting to gain possession of the ball.',
   ),
 ];

@@ -6,7 +6,8 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'Bangalore (now Bengaluru) is indeed known as the Silicon Valley of India due to its thriving IT industry.',
+    explanation:
+        'Bangalore (now Bengaluru) is indeed known as the Silicon Valley of India due to its thriving IT industry.',
   ),
   Question(
     text: 'The capital of Australia is Sydney',
@@ -20,42 +21,48 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 1,
-    explanation: 'Mount Everest, located in the Himalayas, is the tallest mountain above sea level.',
+    explanation:
+        'Mount Everest, located in the Himalayas, is the tallest mountain above sea level.',
   ),
   Question(
     text: 'The Amazon River is the longest river in the world',
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'The Amazon River is the longest river in the world, slightly longer than the Nile.',
+    explanation:
+        'The Amazon River is the longest river in the world, slightly longer than the Nile.',
   ),
   Question(
     text: 'The Sahara Desert is the largest desert in the world',
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'The Sahara Desert is the largest hot desert in the world, and the third largest desert overall.',
+    explanation:
+        'The Sahara Desert is the largest hot desert in the world, and the third largest desert overall.',
   ),
   Question(
     text: 'Russia is the largest country in the world by area',
     answer: true,
     category: 'Geography',
     difficulty: 1,
-    explanation: 'Russia is the largest country in the world, spanning 11 time zones.',
+    explanation:
+        'Russia is the largest country in the world, spanning 11 time zones.',
   ),
   Question(
     text: 'The Pacific Ocean is the largest ocean in the world',
     answer: true,
     category: 'Geography',
     difficulty: 1,
-    explanation: 'The Pacific Ocean is the largest and deepest of the world\'s five oceans.',
+    explanation:
+        'The Pacific Ocean is the largest and deepest of the world\'s five oceans.',
   ),
   Question(
     text: 'The Vatican City is the smallest country in the world',
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'Vatican City is the smallest independent state in the world, both in area and population.',
+    explanation:
+        'Vatican City is the smallest independent state in the world, both in area and population.',
   ),
   Question(
     text: 'Canada is the country with the most lakes',
@@ -69,7 +76,8 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 1,
-    explanation: 'The Nile River is the primary water source for Egypt and Sudan.',
+    explanation:
+        'The Nile River is the primary water source for Egypt and Sudan.',
   ),
   Question(
     text: 'The capital of Canada is Toronto',
@@ -83,7 +91,8 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 1,
-    explanation: 'The Great Barrier Reef is the world\'s largest coral reef system, located off the coast of Australia.',
+    explanation:
+        'The Great Barrier Reef is the world\'s largest coral reef system, located off the coast of Australia.',
   ),
   Question(
     text: 'The capital of Japan is Tokyo',
@@ -111,21 +120,24 @@ const List<Question> _geographyQuestions = [
     answer: false,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'The Dead Sea is extremely salty, but Don Juan Pond in Antarctica is even saltier.',
+    explanation:
+        'The Dead Sea is extremely salty, but Don Juan Pond in Antarctica is even saltier.',
   ),
   Question(
     text: 'The longest coastline in the world belongs to Canada',
     answer: true,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'Canada has the longest coastline of any country, stretching over 243,000 kilometers.',
+    explanation:
+        'Canada has the longest coastline of any country, stretching over 243,000 kilometers.',
   ),
   Question(
     text: 'The city of Istanbul is located on two continents',
     answer: true,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'Istanbul, Turkey, is famously situated on both Europe and Asia.',
+    explanation:
+        'Istanbul, Turkey, is famously situated on both Europe and Asia.',
   ),
   Question(
     text: 'The Gobi Desert is the largest desert in Asia',
@@ -146,7 +158,8 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 4,
-    explanation: 'Africa is crossed by both the Prime Meridian and the Equator.',
+    explanation:
+        'Africa is crossed by both the Prime Meridian and the Equator.',
   ),
   Question(
     text: 'The capital of China is Shanghai',
@@ -160,7 +173,8 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'The Panama Canal is a crucial waterway for international maritime trade.',
+    explanation:
+        'The Panama Canal is a crucial waterway for international maritime trade.',
   ),
   Question(
     text: 'The city of Chicago is located on the coast of Lake Superior',
@@ -174,21 +188,24 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'The Andes Mountains form the longest continental mountain range in the world.',
+    explanation:
+        'The Andes Mountains form the longest continental mountain range in the world.',
   ),
   Question(
     text: 'The Mississippi River is the longest river in the United States',
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'The Mississippi River is the second-longest river in North America, and the longest in the U.S.',
+    explanation:
+        'The Mississippi River is the second-longest river in North America, and the longest in the U.S.',
   ),
   Question(
     text: 'The island of Greenland is part of North America',
     answer: true,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'Geographically, Greenland is part of the continent of North America.',
+    explanation:
+        'Geographically, Greenland is part of the continent of North America.',
   ),
   Question(
     text: 'The capital of Brazil is Rio de Janeiro',
@@ -202,7 +219,8 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'Due to its unique climate, Iceland is one of the few places on Earth with no native mosquito population.',
+    explanation:
+        'Due to its unique climate, Iceland is one of the few places on Earth with no native mosquito population.',
   ),
   Question(
     text: 'The Suez Canal connects the Mediterranean Sea and the Red Sea',
@@ -216,7 +234,8 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'Venice, Italy, is situated on a group of 118 small islands separated by canals.',
+    explanation:
+        'Venice, Italy, is situated on a group of 118 small islands separated by canals.',
   ),
   Question(
     text: 'The capital of India is Mumbai',
@@ -230,14 +249,16 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'Some parts of the Atacama Desert have not received rainfall for centuries.',
+    explanation:
+        'Some parts of the Atacama Desert have not received rainfall for centuries.',
   ),
   Question(
     text: 'The continent of Antarctica is the windiest place on Earth',
     answer: true,
     category: 'Geography',
     difficulty: 3,
-    explanation: 'Antarctica experiences fierce katabatic winds that can reach speeds of over 100 mph.',
+    explanation:
+        'Antarctica experiences fierce katabatic winds that can reach speeds of over 100 mph.',
   ),
   Question(
     text: 'The capital of Spain is Barcelona',
@@ -247,11 +268,13 @@ const List<Question> _geographyQuestions = [
     explanation: 'The capital of Spain is Madrid.',
   ),
   Question(
-    text: 'Lake Baikal in Siberia is the world\'s largest freshwater lake by volume',
+    text:
+        'Lake Baikal in Siberia is the world\'s largest freshwater lake by volume',
     answer: true,
     category: 'Geography',
     difficulty: 4,
-    explanation: 'Lake Baikal contains about 23% of the world\'s fresh surface water.',
+    explanation:
+        'Lake Baikal contains about 23% of the world\'s fresh surface water.',
   ),
   Question(
     text: 'The city of Petra is located in Egypt',
@@ -265,14 +288,16 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 4,
-    explanation: 'Monaco has an area of 2.02 square kilometers, while Central Park is 3.41 square kilometers.',
+    explanation:
+        'Monaco has an area of 2.02 square kilometers, while Central Park is 3.41 square kilometers.',
   ),
   Question(
     text: 'The country of Nepal is landlocked',
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'Nepal is a landlocked country in South Asia, bordered by China and India.',
+    explanation:
+        'Nepal is a landlocked country in South Asia, bordered by China and India.',
   ),
   Question(
     text: 'The city of Dubai is the capital of the United Arab Emirates',
@@ -286,21 +311,24 @@ const List<Question> _geographyQuestions = [
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'The Mariana Trench, located in the western Pacific Ocean, is the deepest oceanic trench on Earth.',
+    explanation:
+        'The Mariana Trench, located in the western Pacific Ocean, is the deepest oceanic trench on Earth.',
   ),
   Question(
     text: 'The Prime Meridian runs through Greenwich, England',
     answer: true,
     category: 'Geography',
     difficulty: 2,
-    explanation: 'The Prime Meridian is the line of 0° longitude, and it passes through the Royal Observatory in Greenwich.',
+    explanation:
+        'The Prime Meridian is the line of 0° longitude, and it passes through the Royal Observatory in Greenwich.',
   ),
   Question(
     text: 'The continent of Australia is also a country',
     answer: true,
     category: 'Geography',
     difficulty: 1,
-    explanation: 'Australia is unique in that it is both a continent and a single country.',
+    explanation:
+        'Australia is unique in that it is both a continent and a single country.',
   ),
   Question(
     text: 'The capital of Switzerland is Geneva',

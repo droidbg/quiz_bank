@@ -2,39 +2,45 @@ part of '../question_bank.dart';
 
 const List<Question> _historyQuestions = [
   Question(
-    text: 'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place',
+    text:
+        'In London, UK, if you happen to die in the House of Parliament, you are technically entitled to a state funeral, because the building is considered too sacred a place',
     answer: true,
     category: 'History',
     difficulty: 4,
-    explanation: 'This is an old British law that technically still exists, though it\'s rarely invoked in modern times.',
+    explanation:
+        'This is an old British law that technically still exists, though it\'s rarely invoked in modern times.',
   ),
   Question(
     text: 'The American Declaration of Independence was signed in 1776',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The Declaration of Independence was adopted by the Second Continental Congress on July 4, 1776.',
+    explanation:
+        'The Declaration of Independence was adopted by the Second Continental Congress on July 4, 1776.',
   ),
   Question(
     text: 'The Titanic sank in 1912',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The RMS Titanic sank in the early morning hours of April 15, 1912.',
+    explanation:
+        'The RMS Titanic sank in the early morning hours of April 15, 1912.',
   ),
   Question(
     text: 'The first man to walk on the moon was Neil Armstrong',
     answer: true,
     category: 'History',
     difficulty: 1,
-    explanation: 'Neil Armstrong was the first person to walk on the moon during the Apollo 11 mission in 1969.',
+    explanation:
+        'Neil Armstrong was the first person to walk on the moon during the Apollo 11 mission in 1969.',
   ),
   Question(
     text: 'The Berlin Wall fell in 1989',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The fall of the Berlin Wall on November 9, 1989, symbolized the end of the Cold War.',
+    explanation:
+        'The fall of the Berlin Wall on November 9, 1989, symbolized the end of the Cold War.',
   ),
   Question(
     text: 'World War I began in 1914',
@@ -48,63 +54,72 @@ const List<Question> _historyQuestions = [
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Magna Carta was a royal charter of rights agreed to by King John of England in 1215.',
+    explanation:
+        'The Magna Carta was a royal charter of rights agreed to by King John of England in 1215.',
   ),
   Question(
     text: 'The ancient Egyptians built the pyramids',
     answer: true,
     category: 'History',
     difficulty: 1,
-    explanation: 'The pyramids of Egypt were built as tombs for pharaohs and their consorts.',
+    explanation:
+        'The pyramids of Egypt were built as tombs for pharaohs and their consorts.',
   ),
   Question(
     text: 'The Roman Empire fell in 476 AD',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The fall of the Western Roman Empire is traditionally dated to 476 AD.',
+    explanation:
+        'The fall of the Western Roman Empire is traditionally dated to 476 AD.',
   ),
   Question(
     text: 'Christopher Columbus discovered America',
     answer: false,
     category: 'History',
     difficulty: 2,
-    explanation: 'Christopher Columbus was not the first European to reach the Americas; Vikings had landed centuries earlier.',
+    explanation:
+        'Christopher Columbus was not the first European to reach the Americas; Vikings had landed centuries earlier.',
   ),
   Question(
     text: 'The printing press was invented by Johannes Gutenberg',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'Johannes Gutenberg is credited with inventing the printing press around 1440.',
+    explanation:
+        'Johannes Gutenberg is credited with inventing the printing press around 1440.',
   ),
   Question(
     text: 'The Renaissance began in Italy',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The Renaissance was a period of great cultural change and achievement that began in Italy during the 14th century.',
+    explanation:
+        'The Renaissance was a period of great cultural change and achievement that began in Italy during the 14th century.',
   ),
   Question(
     text: 'The French Revolution began in 1789',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The French Revolution was a period of radical political and societal change in France that began with the Storming of the Bastille in 1789.',
+    explanation:
+        'The French Revolution was a period of radical political and societal change in France that began with the Storming of the Bastille in 1789.',
   ),
   Question(
     text: 'The Industrial Revolution began in the 18th century',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The Industrial Revolution was the transition to new manufacturing processes in Europe and the United States, in the period from about 1760 to sometime between 1820 and 1840.',
+    explanation:
+        'The Industrial Revolution was the transition to new manufacturing processes in Europe and the United States, in the period from about 1760 to sometime between 1820 and 1840.',
   ),
   Question(
     text: 'The Battle of Hastings was fought in 1066',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Battle of Hastings was fought on 14 October 1066 between the Norman-French army of William, the Duke of Normandy, and an English army under the Anglo-Saxon King Harold Godwinson, beginning the Norman conquest of England.',
+    explanation:
+        'The Battle of Hastings was fought on 14 October 1066 between the Norman-French army of William, the Duke of Normandy, and an English army under the Anglo-Saxon King Harold Godwinson, beginning the Norman conquest of England.',
   ),
   Question(
     text: 'The American Civil War was fought in the 19th century',
@@ -118,91 +133,107 @@ const List<Question> _historyQuestions = [
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The ancient Olympic Games were religious and athletic festivals held every four years at the sanctuary of Zeus in Olympia, Greece.',
+    explanation:
+        'The ancient Olympic Games were religious and athletic festivals held every four years at the sanctuary of Zeus in Olympia, Greece.',
   ),
   Question(
-    text: 'The Black Death was a plague that swept through Europe in the 14th century',
+    text:
+        'The Black Death was a plague that swept through Europe in the 14th century',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Black Death was a bubonic plague pandemic occurring in Afro-Eurasia from 1346 to 1353.',
+    explanation:
+        'The Black Death was a bubonic plague pandemic occurring in Afro-Eurasia from 1346 to 1353.',
   ),
   Question(
     text: 'The Great Depression began in the 1920s',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States.',
+    explanation:
+        'The Great Depression was a severe worldwide economic depression that took place mostly during the 1930s, beginning in the United States.',
   ),
   Question(
     text: 'The Vietnam War was fought in the 20th century',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The Vietnam War was a long, costly and divisive conflict that pitted the communist government of North Vietnam against South Vietnam and its principal ally, the United States.',
+    explanation:
+        'The Vietnam War was a long, costly and divisive conflict that pitted the communist government of North Vietnam against South Vietnam and its principal ally, the United States.',
   ),
   Question(
-    text: 'The Cold War was a direct military conflict between the United States and the Soviet Union',
+    text:
+        'The Cold War was a direct military conflict between the United States and the Soviet Union',
     answer: false,
     category: 'History',
     difficulty: 2,
-    explanation: 'The Cold War was a period of geopolitical tension between the United States and the Soviet Union and their respective allies, the Western Bloc and the Eastern Bloc.',
+    explanation:
+        'The Cold War was a period of geopolitical tension between the United States and the Soviet Union and their respective allies, the Western Bloc and the Eastern Bloc.',
   ),
   Question(
-    text: 'The Protestant Reformation was a religious movement in the 16th century',
+    text:
+        'The Protestant Reformation was a religious movement in the 16th century',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Reformation was a major movement within Western Christianity in 16th-century Europe that posed a religious and political challenge to the Catholic Church and papal authority in particular.',
+    explanation:
+        'The Reformation was a major movement within Western Christianity in 16th-century Europe that posed a religious and political challenge to the Catholic Church and papal authority in particular.',
   ),
   Question(
     text: 'The Wright brothers made their first successful flight in 1903',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The Wright brothers, Orville and Wilbur, were two American aviation pioneers generally credited with inventing, building, and flying the world\'s first successful motor-operated airplane.',
+    explanation:
+        'The Wright brothers, Orville and Wilbur, were two American aviation pioneers generally credited with inventing, building, and flying the world\'s first successful motor-operated airplane.',
   ),
   Question(
     text: 'The first World Cup was held in 1930',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The first FIFA World Cup was the inaugural FIFA World Cup, the world championship for men\'s national association football teams.',
+    explanation:
+        'The first FIFA World Cup was the inaugural FIFA World Cup, the world championship for men\'s national association football teams.',
   ),
   Question(
     text: 'The first successful heart transplant was performed in 1967',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The world\'s first human-to-human heart transplant was performed by South African cardiac surgeon Christiaan Barnard on 3 December 1967.',
+    explanation:
+        'The world\'s first human-to-human heart transplant was performed by South African cardiac surgeon Christiaan Barnard on 3 December 1967.',
   ),
   Question(
     text: 'The first telephone was invented by Alexander Graham Bell',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'Alexander Graham Bell was a Scottish-born inventor, scientist, and engineer who is credited with inventing and patenting the first practical telephone.',
+    explanation:
+        'Alexander Graham Bell was a Scottish-born inventor, scientist, and engineer who is credited with inventing and patenting the first practical telephone.',
   ),
   Question(
     text: 'The first television was invented by Philo Farnsworth',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'Philo Taylor Farnsworth was an American inventor and television pioneer.',
+    explanation:
+        'Philo Taylor Farnsworth was an American inventor and television pioneer.',
   ),
   Question(
     text: 'The first personal computer was the Apple I',
     answer: false,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Kenbak-1, released in early 1971, is considered by the Computer History Museum to be the world\'s first personal computer.',
+    explanation:
+        'The Kenbak-1, released in early 1971, is considered by the Computer History Museum to be the world\'s first personal computer.',
   ),
   Question(
     text: 'The first successful vaccine was for smallpox',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The smallpox vaccine was the first successful vaccine to be developed.',
+    explanation:
+        'The smallpox vaccine was the first successful vaccine to be developed.',
   ),
   Question(
     text: 'The first man-made satellite was Sputnik 1',
@@ -216,77 +247,88 @@ const List<Question> _historyQuestions = [
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'Ferdinand Magellan was a Portuguese explorer who organized the Spanish expedition to the East Indies from 1519 to 1522, resulting in the first circumnavigation of the Earth.',
+    explanation:
+        'Ferdinand Magellan was a Portuguese explorer who organized the Spanish expedition to the East Indies from 1519 to 1522, resulting in the first circumnavigation of the Earth.',
   ),
   Question(
     text: 'The Battle of Waterloo was fought in 1815',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Battle of Waterloo was fought on Sunday, 18 June 1815, near Waterloo in Belgium, part of the United Kingdom of the Netherlands at the time.',
+    explanation:
+        'The Battle of Waterloo was fought on Sunday, 18 June 1815, near Waterloo in Belgium, part of the United Kingdom of the Netherlands at the time.',
   ),
   Question(
     text: 'The first President of the United States was George Washington',
     answer: true,
     category: 'History',
     difficulty: 1,
-    explanation: 'George Washington was an American political leader, military general, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.',
+    explanation:
+        'George Washington was an American political leader, military general, statesman, and Founding Father who served as the first president of the United States from 1789 to 1797.',
   ),
   Question(
     text: 'The ancient city of Pompeii was destroyed by a volcano',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The ancient Roman city of Pompeii was destroyed and buried under 4 to 6 m of volcanic ash and pumice in the eruption of Mount Vesuvius in AD 79.',
+    explanation:
+        'The ancient Roman city of Pompeii was destroyed and buried under 4 to 6 m of volcanic ash and pumice in the eruption of Mount Vesuvius in AD 79.',
   ),
   Question(
     text: 'The first book printed with movable type was the Gutenberg Bible',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Gutenberg Bible was the earliest major book printed using mass-produced movable metal type in Europe.',
+    explanation:
+        'The Gutenberg Bible was the earliest major book printed using mass-produced movable metal type in Europe.',
   ),
   Question(
     text: 'The first successful airplane was the Spirit of St. Louis',
     answer: false,
     category: 'History',
     difficulty: 3,
-    explanation: 'The Spirit of St. Louis was the first airplane to make a solo transatlantic flight, but the first successful airplane was the Wright Flyer.',
+    explanation:
+        'The Spirit of St. Louis was the first airplane to make a solo transatlantic flight, but the first successful airplane was the Wright Flyer.',
   ),
   Question(
     text: 'The first public demonstration of the internet was in 1969',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The first message was sent over the ARPANET in 1969 from computer science Professor Leonard Kleinrock\'s laboratory at the University of California, Los Angeles to the second network node at Stanford Research Institute.',
+    explanation:
+        'The first message was sent over the ARPANET in 1969 from computer science Professor Leonard Kleinrock\'s laboratory at the University of California, Los Angeles to the second network node at Stanford Research Institute.',
   ),
   Question(
     text: 'The first successful photograph was taken in the 1820s',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The first surviving photograph from nature was taken in 1826 or 1827 by Joseph Nicéphore Niépce.',
+    explanation:
+        'The first surviving photograph from nature was taken in 1826 or 1827 by Joseph Nicéphore Niépce.',
   ),
   Question(
     text: 'The first successful steamboat was the Clermont',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The North River Steamboat or North River, colloquially known as the Clermont, is widely regarded as the world\'s first vessel to demonstrate the viability of using steam propulsion for commercial water transportation.',
+    explanation:
+        'The North River Steamboat or North River, colloquially known as the Clermont, is widely regarded as the world\'s first vessel to demonstrate the viability of using steam propulsion for commercial water transportation.',
   ),
   Question(
     text: 'The first successful telephone call was made in 1876',
     answer: true,
     category: 'History',
     difficulty: 2,
-    explanation: 'The first telephone call was made by Alexander Graham Bell on March 10, 1876.',
+    explanation:
+        'The first telephone call was made by Alexander Graham Bell on March 10, 1876.',
   ),
   Question(
     text: 'The first successful transatlantic telegraph cable was laid in 1858',
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'The first transatlantic telegraph cable was laid in 1858, but it failed after a few weeks. A more successful cable was laid in 1866.',
+    explanation:
+        'The first transatlantic telegraph cable was laid in 1858, but it failed after a few weeks. A more successful cable was laid in 1866.',
   ),
   Question(
     text: 'The first successful vaccination was for polio',
@@ -300,13 +342,15 @@ const List<Question> _historyQuestions = [
     answer: true,
     category: 'History',
     difficulty: 3,
-    explanation: 'Wilhelm Röntgen, a German physicist, produced and detected electromagnetic radiation in a wavelength range known as X-rays on 8 November 1895.',
+    explanation:
+        'Wilhelm Röntgen, a German physicist, produced and detected electromagnetic radiation in a wavelength range known as X-rays on 8 November 1895.',
   ),
   Question(
     text: 'The first successful automobile was the Model T',
     answer: false,
     category: 'History',
     difficulty: 3,
-    explanation: 'The first successful automobile was the Benz Patent-Motorwagen, built in 1886.',
+    explanation:
+        'The first successful automobile was the Benz Patent-Motorwagen, built in 1886.',
   ),
 ];

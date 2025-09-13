@@ -31,7 +31,6 @@ enum QuestionCategory {
 /// organized by category and difficulty. It offers methods to retrieve all
 /// questions, filter them by specific criteria, and get random questions.
 class QuestionBank {
- 
   static final Map<String, List<Question>> _questionsByCategory = {
     'General': _generalQuestions,
     'Technology': _technologyQuestions,
@@ -45,9 +44,8 @@ class QuestionBank {
     'Science': _scienceQuestions,
   };
 
-  static List<Question> get _allQuestions => _questionsByCategory.values
-      .expand((questions) => questions)
-      .toList();
+  static List<Question> get _allQuestions =>
+      _questionsByCategory.values.expand((questions) => questions).toList();
 
   /// A list of all questions in the bank.
   static List<Question> get allQuestions => List.unmodifiable(_allQuestions);
@@ -67,18 +65,23 @@ class QuestionBank {
   /// Returns a list of questions within a given difficulty range (inclusive).
   static List<Question> getQuestionsByDifficultyRange(int min, int max) {
     return _allQuestions
-        .where((q) => q.difficulty != null && q.difficulty! >= min && q.difficulty! <= max)
+        .where((q) =>
+            q.difficulty != null &&
+            q.difficulty! >= min &&
+            q.difficulty! <= max)
         .toList();
   }
 
   /// Returns a list of questions for a given [category] and [difficulty].
-  static List<Question> getQuestionsByCategoryAndDifficulty(String category, int difficulty) {
+  static List<Question> getQuestionsByCategoryAndDifficulty(
+      String category, int difficulty) {
     final categoryQuestions = getQuestionsByCategory(category);
     return categoryQuestions.where((q) => q.difficulty == difficulty).toList();
   }
 
   /// A sorted list of all available categories.
-  static List<String> get categories => _questionsByCategory.keys.toList()..sort();
+  static List<String> get categories =>
+      _questionsByCategory.keys.toList()..sort();
 
   /// A sorted list of all available difficulty levels.
   static List<int> get difficultyLevels {
@@ -105,7 +108,8 @@ class QuestionBank {
     if (categoryQuestions.isEmpty) {
       throw ArgumentError('No questions found for category: $category');
     }
-    final random = DateTime.now().millisecondsSinceEpoch % categoryQuestions.length;
+    final random =
+        DateTime.now().millisecondsSinceEpoch % categoryQuestions.length;
     return categoryQuestions[random];
   }
 
@@ -117,7 +121,8 @@ class QuestionBank {
     if (difficultyQuestions.isEmpty) {
       throw ArgumentError('No questions found for difficulty: $difficulty');
     }
-    final random = DateTime.now().millisecondsSinceEpoch % difficultyQuestions.length;
+    final random =
+        DateTime.now().millisecondsSinceEpoch % difficultyQuestions.length;
     return difficultyQuestions[random];
   }
 }

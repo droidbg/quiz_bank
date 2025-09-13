@@ -6,7 +6,7 @@ import 'data/question_bank.dart';
 class QuizException implements Exception {
   const QuizException(this.message);
   final String message;
-  
+
   @override
   String toString() => 'QuizException: $message';
 }
@@ -24,7 +24,8 @@ class QuizBrain {
   QuizBrain({
     List<Question>? questions,
     bool shuffle = false,
-  }) : _questions = List<Question>.from(questions ?? QuestionBank.allQuestions) {
+  }) : _questions =
+            List<Question>.from(questions ?? QuestionBank.allQuestions) {
     if (shuffle) {
       shuffleQuestions();
     }
@@ -36,7 +37,8 @@ class QuizBrain {
     if (questions.isEmpty) {
       throw QuizException('No questions found for category: $category');
     }
-    return QuizBrain(questions: List<Question>.from(questions), shuffle: shuffle);
+    return QuizBrain(
+        questions: List<Question>.from(questions), shuffle: shuffle);
   }
 
   /// Creates a [QuizBrain] with questions of a specific difficulty.
@@ -45,7 +47,8 @@ class QuizBrain {
     if (questions.isEmpty) {
       throw QuizException('No questions found for difficulty: $difficulty');
     }
-    return QuizBrain(questions: List<Question>.from(questions), shuffle: shuffle);
+    return QuizBrain(
+        questions: List<Question>.from(questions), shuffle: shuffle);
   }
 
   /// Creates a [QuizBrain] with questions from a category and difficulty.
@@ -54,16 +57,19 @@ class QuizBrain {
     int difficulty, {
     bool shuffle = false,
   }) {
-    final questions = QuestionBank.getQuestionsByCategoryAndDifficulty(category, difficulty);
+    final questions =
+        QuestionBank.getQuestionsByCategoryAndDifficulty(category, difficulty);
     if (questions.isEmpty) {
-      throw QuizException('No questions found for category: $category and difficulty: $difficulty');
+      throw QuizException(
+          'No questions found for category: $category and difficulty: $difficulty');
     }
-    return QuizBrain(questions: List<Question>.from(questions), shuffle: shuffle);
+    return QuizBrain(
+        questions: List<Question>.from(questions), shuffle: shuffle);
   }
 
   final List<Question> _questions;
   final Random _random = Random();
-  
+
   int _currentQuestionIndex = 0;
   bool _isShuffled = false;
   final Set<int> _usedQuestions = <int>{};
@@ -116,7 +122,8 @@ class QuizBrain {
   String? get currentSource => currentQuestion.source;
 
   /// Whether the current question has been used before.
-  bool get isCurrentQuestionUsed => _usedQuestions.contains(_currentQuestionIndex);
+  bool get isCurrentQuestionUsed =>
+      _usedQuestions.contains(_currentQuestionIndex);
 
   /// The number of questions that have been used.
   int get usedQuestionsCount => _usedQuestions.length;
@@ -125,7 +132,7 @@ class QuizBrain {
   int get remainingQuestions => _questions.length - _usedQuestions.length;
 
   /// Moves to the next question.
-  /// 
+  ///
   /// Returns `true` if successfully moved to next question, `false` if already at the end.
   bool nextQuestion() {
     if (hasNextQuestion) {
@@ -137,7 +144,7 @@ class QuizBrain {
   }
 
   /// Moves to the previous question.
-  /// 
+  ///
   /// Returns `true` if successfully moved to previous question, `false` if already at the beginning.
   bool previousQuestion() {
     if (hasPreviousQuestion) {
@@ -148,18 +155,19 @@ class QuizBrain {
   }
 
   /// Moves to a specific question by index.
-  /// 
+  ///
   /// Throws [QuizException] if the index is out of bounds.
   void goToQuestion(int index) {
     if (index < 0 || index >= _questions.length) {
-      throw QuizException('Question index $index is out of bounds (0-${_questions.length - 1})');
+      throw QuizException(
+          'Question index $index is out of bounds (0-${_questions.length - 1})');
     }
     _currentQuestionIndex = index;
     _usedQuestions.add(index);
   }
 
   /// Gets a random question from the available questions.
-  /// 
+  ///
   /// [avoidUsed] - Whether to avoid questions that have already been used.
   void randomQuestion({bool avoidUsed = false}) {
     if (_questions.isEmpty) {
@@ -218,19 +226,19 @@ class QuizBrain {
   }
 
   /// Removes a question at the specified index.
-  /// 
+  ///
   /// Throws [QuizException] if the index is out of bounds.
   void removeQuestion(int index) {
     if (index < 0 || index >= _questions.length) {
       throw QuizException('Question index $index is out of bounds');
     }
     _questions.removeAt(index);
-    
+
     // Adjust current index if necessary
     if (_currentQuestionIndex >= _questions.length) {
       _currentQuestionIndex = _questions.length - 1;
     }
-    
+
     // Remove from used questions if it was there
     _usedQuestions.remove(index);
   }
@@ -300,35 +308,39 @@ class QuizBrain {
   }
 
   // Legacy compatibility methods - will be removed in version 2.0.0
-  
+
   /// Gets the current question text.
-  /// 
+  ///
   /// **Deprecated:** Use `questionText` getter instead.
-  @Deprecated('Use questionText getter instead. This will be removed in version 2.0.0')
+  @Deprecated(
+      'Use questionText getter instead. This will be removed in version 2.0.0')
   String getQuestionText() {
     return questionText;
   }
 
   /// Gets the correct answer for the current question.
-  /// 
+  ///
   /// **Deprecated:** Use `correctAnswer` getter instead.
-  @Deprecated('Use correctAnswer getter instead. This will be removed in version 2.0.0')
+  @Deprecated(
+      'Use correctAnswer getter instead. This will be removed in version 2.0.0')
   bool getCorrectAnswer() {
     return correctAnswer;
   }
 
   /// Gets a random question.
-  /// 
+  ///
   /// **Deprecated:** Use `randomQuestion()` instead.
-  @Deprecated('Use randomQuestion() instead. This will be removed in version 2.0.0')
+  @Deprecated(
+      'Use randomQuestion() instead. This will be removed in version 2.0.0')
   void randomQuestionLegacy() {
     randomQuestion();
   }
 
   /// Checks if the quiz is finished.
-  /// 
+  ///
   /// **Deprecated:** Use `isFinished` getter instead.
-  @Deprecated('Use isFinished getter instead. This will be removed in version 2.0.0')
+  @Deprecated(
+      'Use isFinished getter instead. This will be removed in version 2.0.0')
   bool isQuizFinished() {
     return isFinished;
   }

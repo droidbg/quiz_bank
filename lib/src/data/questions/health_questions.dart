@@ -2,25 +2,29 @@ part of '../question_bank.dart';
 
 const List<Question> _healthQuestions = [
   Question(
-    text: 'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog',
+    text:
+        'Chocolate affects a dog\'s heart and nervous system; a few ounces are enough to kill a small dog',
     answer: true,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Chocolate contains theobromine, which is toxic to dogs and can cause serious health problems or death.',
+    explanation:
+        'Chocolate contains theobromine, which is toxic to dogs and can cause serious health problems or death.',
   ),
   Question(
     text: 'The human body has 206 bones',
     answer: true,
     category: 'Health',
     difficulty: 2,
-    explanation: 'An adult human body has 206 bones, though babies are born with around 270 bones that fuse together.',
+    explanation:
+        'An adult human body has 206 bones, though babies are born with around 270 bones that fuse together.',
   ),
   Question(
     text: 'The human body has 5 liters of blood',
     answer: true,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The average adult human body contains about 5 liters of blood.',
+    explanation:
+        'The average adult human body contains about 5 liters of blood.',
   ),
   Question(
     text: 'The human body has 650 muscles',
@@ -48,28 +52,32 @@ const List<Question> _healthQuestions = [
     answer: true,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body contains approximately 2 million sweat glands.',
+    explanation:
+        'The human body contains approximately 2 million sweat glands.',
   ),
   Question(
     text: 'The human body has 60,000 miles of blood vessels',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'If laid end to end, the blood vessels in the human body would stretch about 60,000 miles.',
+    explanation:
+        'If laid end to end, the blood vessels in the human body would stretch about 60,000 miles.',
   ),
   Question(
     text: 'The human body has 100 billion nerve cells',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human nervous system contains approximately 100 billion nerve cells.',
+    explanation:
+        'The human nervous system contains approximately 100 billion nerve cells.',
   ),
   Question(
     text: 'The human body has 1.5 pounds of bacteria',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body contains approximately 1.5 pounds of bacteria.',
+    explanation:
+        'The human body contains approximately 1.5 pounds of bacteria.',
   ),
   Question(
     text: 'The human body has 37 trillion cells',
@@ -83,7 +91,8 @@ const List<Question> _healthQuestions = [
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body hosts approximately 1,000 different types of bacteria.',
+    explanation:
+        'The human body hosts approximately 1,000 different types of bacteria.',
   ),
   Question(
     text: 'The human body loses about 50-100 hairs per day',
@@ -97,98 +106,112 @@ const List<Question> _healthQuestions = [
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body produces about 25 million new cells every second.',
+    explanation:
+        'The human body produces about 25 million new cells every second.',
   ),
   Question(
     text: 'The human body has 8 pints of blood',
     answer: true,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The average adult human body contains about 8 pints of blood.',
+    explanation:
+        'The average adult human body contains about 8 pints of blood.',
   ),
   Question(
     text: 'The human body has 206 bones at birth',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Babies are born with about 270 bones, which fuse together to form the 206 bones in adults.',
+    explanation:
+        'Babies are born with about 270 bones, which fuse together to form the 206 bones in adults.',
   ),
   Question(
     text: 'The human body has 2.5 million sweat glands',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body has about 2 million sweat glands, not 2.5 million.',
+    explanation:
+        'The human body has about 2 million sweat glands, not 2.5 million.',
   ),
   Question(
     text: 'The human body has 10,000 miles of blood vessels',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body has about 60,000 miles of blood vessels, not 10,000 miles.',
+    explanation:
+        'The human body has about 60,000 miles of blood vessels, not 10,000 miles.',
   ),
   Question(
     text: 'The human body has 206 bones in the feet',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body has 206 bones total, with 26 bones in each foot.',
+    explanation:
+        'The human body has 206 bones total, with 26 bones in each foot.',
   ),
   Question(
     text: 'The human body has 100,000 hairs per square inch',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human scalp has about 100,000 hairs total, not per square inch.',
+    explanation:
+        'The human scalp has about 100,000 hairs total, not per square inch.',
   ),
   Question(
     text: 'The human body has 1,000 different types of cells',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body has about 200 different types of cells, not 1,000.',
+    explanation:
+        'The human body has about 200 different types of cells, not 1,000.',
   ),
   Question(
     text: 'The human body has 50,000 different types of proteins',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body produces approximately 50,000 different types of proteins.',
+    explanation:
+        'The human body produces approximately 50,000 different types of proteins.',
   ),
   Question(
     text: 'The human body has 1,000 different types of enzymes',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body produces approximately 1,000 different types of enzymes.',
+    explanation:
+        'The human body produces approximately 1,000 different types of enzymes.',
   ),
   Question(
     text: 'The human body has 100,000 different types of antibodies',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human immune system can produce approximately 100,000 different types of antibodies.',
+    explanation:
+        'The human immune system can produce approximately 100,000 different types of antibodies.',
   ),
   Question(
     text: 'The human body has 1,000 different types of hormones',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body produces about 50 different types of hormones, not 1,000.',
+    explanation:
+        'The human body produces about 50 different types of hormones, not 1,000.',
   ),
   Question(
     text: 'The human body has 100,000 different types of neurotransmitters',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body produces about 100 different types of neurotransmitters, not 100,000.',
+    explanation:
+        'The human body produces about 100 different types of neurotransmitters, not 100,000.',
   ),
   Question(
     text: 'The human body has 1,000 different types of receptors',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body has approximately 1,000 different types of receptors.',
+    explanation:
+        'The human body has approximately 1,000 different types of receptors.',
   ),
   Question(
     text: 'The human body has 100,000 different types of genes',
@@ -202,21 +225,24 @@ const List<Question> _healthQuestions = [
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each cell produces about 10,000-20,000 different types of proteins, not 1,000.',
+    explanation:
+        'Each cell produces about 10,000-20,000 different types of proteins, not 1,000.',
   ),
   Question(
     text: 'The human body has 100,000 different types of cells per organ',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each organ typically has 10-50 different types of cells, not 100,000.',
+    explanation:
+        'Each organ typically has 10-50 different types of cells, not 100,000.',
   ),
   Question(
     text: 'The human body has 1,000 different types of tissues',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body has 4 main types of tissues: epithelial, connective, muscle, and nervous.',
+    explanation:
+        'The human body has 4 main types of tissues: epithelial, connective, muscle, and nervous.',
   ),
   Question(
     text: 'The human body has 100,000 different types of organs',
@@ -237,56 +263,64 @@ const List<Question> _healthQuestions = [
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body contains approximately 100,000 different types of molecules.',
+    explanation:
+        'The human body contains approximately 100,000 different types of molecules.',
   ),
   Question(
     text: 'The human body has 1,000 different types of atoms',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'The human body contains about 60 different types of atoms, not 1,000.',
+    explanation:
+        'The human body contains about 60 different types of atoms, not 1,000.',
   ),
   Question(
     text: 'The human body has 100,000 different types of chemical reactions',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body performs approximately 100,000 different types of chemical reactions.',
+    explanation:
+        'The human body performs approximately 100,000 different types of chemical reactions.',
   ),
   Question(
     text: 'The human body has 1,000 different types of metabolic pathways',
     answer: true,
     category: 'Health',
     difficulty: 3,
-    explanation: 'The human body has approximately 1,000 different types of metabolic pathways.',
+    explanation:
+        'The human body has approximately 1,000 different types of metabolic pathways.',
   ),
   Question(
     text: 'The human body has 100,000 different types of enzymes per cell',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each cell produces about 1,000-2,000 different types of enzymes, not 100,000.',
+    explanation:
+        'Each cell produces about 1,000-2,000 different types of enzymes, not 100,000.',
   ),
   Question(
     text: 'The human body has 1,000 different types of proteins per organ',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each organ produces about 10,000-20,000 different types of proteins, not 1,000.',
+    explanation:
+        'Each organ produces about 10,000-20,000 different types of proteins, not 1,000.',
   ),
   Question(
     text: 'The human body has 100,000 different types of cells per tissue',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each tissue typically has 1-10 different types of cells, not 100,000.',
+    explanation:
+        'Each tissue typically has 1-10 different types of cells, not 100,000.',
   ),
   Question(
     text: 'The human body has 1,000 different types of organs per system',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each organ system typically has 1-10 different organs, not 1,000.',
+    explanation:
+        'Each organ system typically has 1-10 different organs, not 1,000.',
   ),
   Question(
     text: 'The human body has 100,000 different types of systems per body',
@@ -300,20 +334,24 @@ const List<Question> _healthQuestions = [
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each cell contains about 1 billion molecules, but not 100,000 different types.',
+    explanation:
+        'Each cell contains about 1 billion molecules, but not 100,000 different types.',
   ),
   Question(
     text: 'The human body has 1,000 different types of atoms per cell',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each cell contains about 60 different types of atoms, not 1,000.',
+    explanation:
+        'Each cell contains about 60 different types of atoms, not 1,000.',
   ),
   Question(
-    text: 'The human body has 100,000 different types of chemical reactions per cell',
+    text:
+        'The human body has 100,000 different types of chemical reactions per cell',
     answer: false,
     category: 'Health',
     difficulty: 2,
-    explanation: 'Each cell performs about 100,000 chemical reactions per second, but not 100,000 different types.',
+    explanation:
+        'Each cell performs about 100,000 chemical reactions per second, but not 100,000 different types.',
   ),
 ];

@@ -1,5 +1,5 @@
 name: quiz_bank
-description: A comprehensive Flutter package providing true/false quiz questions with categories, difficulty levels, and easy customization. Perfect for educational apps, trivia games, and learning platforms.
+description: A Flutter package for true/false quiz questions with categories, difficulty levels, and customization. Perfect for educational apps and trivia games.
 version: 1.0.0
 homepage: https://github.com/droidbg/quiz_bank
 repository: https://github.com/droidbg/quiz_bank
@@ -19,5 +19,4 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
   test: ^1.24.0
-
 flutter:

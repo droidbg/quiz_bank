@@ -106,7 +106,10 @@ void main() {
     test('should get questions by difficulty range', () {
       final mediumQuestions = QuestionBank.getQuestionsByDifficultyRange(2, 3);
       expect(mediumQuestions.isNotEmpty, true);
-      expect(mediumQuestions.every((q) => q.difficulty! >= 2 && q.difficulty! <= 3), true);
+      expect(
+          mediumQuestions
+              .every((q) => q.difficulty! >= 2 && q.difficulty! <= 3),
+          true);
     });
 
     test('should get random question', () {
@@ -158,7 +161,7 @@ void main() {
     test('should move to next question', () {
       final initialIndex = quizBrain.currentQuestionIndex;
       final hasNext = quizBrain.nextQuestion();
-      
+
       if (quizBrain.totalQuestions > 1) {
         expect(hasNext, true);
         expect(quizBrain.currentQuestionIndex, initialIndex + 1);
@@ -171,7 +174,7 @@ void main() {
       quizBrain.nextQuestion();
       final currentIndex = quizBrain.currentQuestionIndex;
       final hasPrevious = quizBrain.previousQuestion();
-      
+
       expect(hasPrevious, true);
       expect(quizBrain.currentQuestionIndex, currentIndex - 1);
     });
@@ -197,7 +200,8 @@ void main() {
     test('should get random question', () {
       quizBrain.randomQuestion();
       expect(quizBrain.currentQuestionIndex, greaterThanOrEqualTo(0));
-      expect(quizBrain.currentQuestionIndex, lessThan(quizBrain.totalQuestions));
+      expect(
+          quizBrain.currentQuestionIndex, lessThan(quizBrain.totalQuestions));
     });
 
     test('should shuffle questions', () {
@@ -224,7 +228,7 @@ void main() {
     test('should add custom question', () {
       final initialCount = quizBrain.totalQuestions;
       const customQuestion = Question(text: 'Custom question?', answer: true);
-      
+
       quizBrain.addQuestion(customQuestion);
       expect(quizBrain.totalQuestions, initialCount + 1);
     });
@@ -280,7 +284,7 @@ void main() {
     test('should handle single question quiz', () {
       const singleQuestion = Question(text: 'Single question?', answer: true);
       final singleQuiz = QuizBrain(questions: [singleQuestion]);
-      
+
       expect(singleQuiz.totalQuestions, 1);
       expect(singleQuiz.isFinished, true);
       expect(singleQuiz.hasNextQuestion, false);
@@ -289,7 +293,7 @@ void main() {
     test('should track used questions', () {
       final quiz = QuizBrain();
       final initialUsedCount = quiz.usedQuestionsCount;
-      
+
       quiz.nextQuestion();
       expect(quiz.usedQuestionsCount, initialUsedCount + 1);
     });
@@ -330,22 +334,22 @@ void main() {
   //     quizBrain = QuizBrain();
   //   });
 
-    // test('should work with old API methods', () {
-    //   expect(quizBrain.getQuestionText(), isA<String>());
-    //   expect(quizBrain.getCorrectAnswer(), isA<bool>());
-    //   expect(quizBrain.isQuizFinished(), isA<bool>());
-      
-    //   quizBrain.RandomQuestion();
-    //   quizBrain.nextQuestion();
-    //   quizBrain.reset();
-      
-    //   expect(quizBrain.isQuizFinished(), isA<bool>());
-    // });
+  // test('should work with old API methods', () {
+  //   expect(quizBrain.getQuestionText(), isA<String>());
+  //   expect(quizBrain.getCorrectAnswer(), isA<bool>());
+  //   expect(quizBrain.isQuizFinished(), isA<bool>());
 
-    // test('should provide same results for old and new API', () {
-    //   expect(quizBrain.getQuestionText(), quizBrain.questionText);
-    //   expect(quizBrain.getCorrectAnswer(), quizBrain.correctAnswer);
-    //   expect(quizBrain.isQuizFinished(), quizBrain.isFinished);
-    // });
+  //   quizBrain.RandomQuestion();
+  //   quizBrain.nextQuestion();
+  //   quizBrain.reset();
+
+  //   expect(quizBrain.isQuizFinished(), isA<bool>());
+  // });
+
+  // test('should provide same results for old and new API', () {
+  //   expect(quizBrain.getQuestionText(), quizBrain.questionText);
+  //   expect(quizBrain.getCorrectAnswer(), quizBrain.correctAnswer);
+  //   expect(quizBrain.isQuizFinished(), quizBrain.isFinished);
+  // });
   // });
 }

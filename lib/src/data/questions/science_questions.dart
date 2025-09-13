@@ -6,21 +6,25 @@ const List<Question> _scienceQuestions = [
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'Babies are born with around 270 bones, but many fuse together as they grow, resulting in 206 bones in adults.',
+    explanation:
+        'Babies are born with around 270 bones, but many fuse together as they grow, resulting in 206 bones in adults.',
   ),
   Question(
-    text: 'The total surface area of two human lungs is approximately 70 square metres',
+    text:
+        'The total surface area of two human lungs is approximately 70 square metres',
     answer: true,
     category: 'Science',
     difficulty: 4,
-    explanation: 'The lungs have a massive surface area due to the millions of tiny air sacs (alveoli) for gas exchange.',
+    explanation:
+        'The lungs have a massive surface area due to the millions of tiny air sacs (alveoli) for gas exchange.',
   ),
   Question(
     text: 'Water boils at 100 degrees Celsius at sea level',
     answer: true,
     category: 'Science',
     difficulty: 1,
-    explanation: 'Water boils at 100°C (212°F) at standard atmospheric pressure (sea level).',
+    explanation:
+        'Water boils at 100°C (212°F) at standard atmospheric pressure (sea level).',
   ),
   Question(
     text: 'The Earth is flat',
@@ -34,91 +38,105 @@ const List<Question> _scienceQuestions = [
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Lightning can and does strike the same place multiple times. Tall buildings and structures are often hit repeatedly.',
+    explanation:
+        'Lightning can and does strike the same place multiple times. Tall buildings and structures are often hit repeatedly.',
   ),
   Question(
-    text: 'A bolt of lightning contains enough energy to toast 100,000 slices of bread',
+    text:
+        'A bolt of lightning contains enough energy to toast 100,000 slices of bread',
     answer: true,
     category: 'Science',
     difficulty: 4,
-    explanation: 'A single lightning bolt can contain up to 1 billion volts of electricity, which is indeed enough energy to toast that many slices.',
+    explanation:
+        'A single lightning bolt can contain up to 1 billion volts of electricity, which is indeed enough energy to toast that many slices.',
   ),
   Question(
     text: 'Hot and cold water sound the same when you pour them',
     answer: false,
     category: 'Science',
     difficulty: 3,
-    explanation: 'Hot water has a higher pitch when poured due to lower viscosity and faster molecular movement.',
+    explanation:
+        'Hot water has a higher pitch when poured due to lower viscosity and faster molecular movement.',
   ),
   Question(
     text: 'The speed of light is approximately 300,000 kilometers per second',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The speed of light in a vacuum is approximately 299,792,458 meters per second, or about 300,000 km/s.',
+    explanation:
+        'The speed of light in a vacuum is approximately 299,792,458 meters per second, or about 300,000 km/s.',
   ),
   Question(
     text: 'The human brain uses 20% of the body\'s energy',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Despite being only 2% of body weight, the brain uses about 20% of the body\'s total energy.',
+    explanation:
+        'Despite being only 2% of body weight, the brain uses about 20% of the body\'s total energy.',
   ),
   Question(
     text: 'Atoms are mostly empty space',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Atoms are indeed mostly empty space, with the nucleus taking up only a tiny fraction of the atom\'s volume.',
+    explanation:
+        'Atoms are indeed mostly empty space, with the nucleus taking up only a tiny fraction of the atom\'s volume.',
   ),
   Question(
     text: 'The human body is 60% water',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body is approximately 60% water, though this varies by age, gender, and body composition.',
+    explanation:
+        'The human body is approximately 60% water, though this varies by age, gender, and body composition.',
   ),
   Question(
     text: 'Sound travels faster in water than in air',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Sound travels about 4 times faster in water than in air due to water\'s higher density.',
+    explanation:
+        'Sound travels about 4 times faster in water than in air due to water\'s higher density.',
   ),
   Question(
     text: 'The human eye can see millions of colors',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human eye can distinguish between millions of different colors, though estimates vary.',
+    explanation:
+        'The human eye can distinguish between millions of different colors, though estimates vary.',
   ),
   Question(
     text: 'The human heart has four chambers',
     answer: true,
     category: 'Science',
     difficulty: 1,
-    explanation: 'The human heart has four chambers: two atria and two ventricles.',
+    explanation:
+        'The human heart has four chambers: two atria and two ventricles.',
   ),
   Question(
     text: 'The human body produces vitamin D when exposed to sunlight',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The skin produces vitamin D when exposed to UVB radiation from sunlight.',
+    explanation:
+        'The skin produces vitamin D when exposed to UVB radiation from sunlight.',
   ),
   Question(
     text: 'The human body has 23 pairs of chromosomes',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Humans have 23 pairs of chromosomes, for a total of 46 chromosomes.',
+    explanation:
+        'Humans have 23 pairs of chromosomes, for a total of 46 chromosomes.',
   ),
   Question(
     text: 'The human body produces about 1.5 liters of saliva per day',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body produces approximately 1.5 liters of saliva per day.',
+    explanation:
+        'The human body produces approximately 1.5 liters of saliva per day.',
   ),
   Question(
     text: 'The human body has about 650 muscles',
@@ -139,7 +157,8 @@ const List<Question> _scienceQuestions = [
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The average adult human body contains about 5 liters of blood.',
+    explanation:
+        'The average adult human body contains about 5 liters of blood.',
   ),
   Question(
     text: 'The human body has about 100,000 hairs on the scalp',
@@ -167,28 +186,32 @@ const List<Question> _scienceQuestions = [
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body contains approximately 2 million sweat glands.',
+    explanation:
+        'The human body contains approximately 2 million sweat glands.',
   ),
   Question(
     text: 'The human body has about 60,000 miles of blood vessels',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'If laid end to end, the blood vessels in the human body would stretch about 60,000 miles.',
+    explanation:
+        'If laid end to end, the blood vessels in the human body would stretch about 60,000 miles.',
   ),
   Question(
     text: 'The human body has about 100 billion nerve cells',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human nervous system contains approximately 100 billion nerve cells.',
+    explanation:
+        'The human nervous system contains approximately 100 billion nerve cells.',
   ),
   Question(
     text: 'The human body has about 1.5 pounds of bacteria',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body contains approximately 1.5 pounds of bacteria.',
+    explanation:
+        'The human body contains approximately 1.5 pounds of bacteria.',
   ),
   Question(
     text: 'The human body has about 37 trillion cells',
@@ -202,7 +225,8 @@ const List<Question> _scienceQuestions = [
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body hosts approximately 1,000 different types of bacteria.',
+    explanation:
+        'The human body hosts approximately 1,000 different types of bacteria.',
   ),
   Question(
     text: 'The human body loses about 50-100 hairs per day',
@@ -216,98 +240,113 @@ const List<Question> _scienceQuestions = [
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body produces about 25 million new cells every second.',
+    explanation:
+        'The human body produces about 25 million new cells every second.',
   ),
   Question(
     text: 'The human body has about 8 pints of blood',
     answer: true,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The average adult human body contains about 8 pints of blood.',
+    explanation:
+        'The average adult human body contains about 8 pints of blood.',
   ),
   Question(
     text: 'The human body has about 206 bones at birth',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Babies are born with about 270 bones, which fuse together to form the 206 bones in adults.',
+    explanation:
+        'Babies are born with about 270 bones, which fuse together to form the 206 bones in adults.',
   ),
   Question(
     text: 'The human body has about 2.5 million sweat glands',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body has about 2 million sweat glands, not 2.5 million.',
+    explanation:
+        'The human body has about 2 million sweat glands, not 2.5 million.',
   ),
   Question(
     text: 'The human body has about 10,000 miles of blood vessels',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body has about 60,000 miles of blood vessels, not 10,000 miles.',
+    explanation:
+        'The human body has about 60,000 miles of blood vessels, not 10,000 miles.',
   ),
   Question(
     text: 'The human body has about 206 bones in the feet',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body has 206 bones total, with 26 bones in each foot.',
+    explanation:
+        'The human body has 206 bones total, with 26 bones in each foot.',
   ),
   Question(
     text: 'The human body has about 100,000 hairs per square inch',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human scalp has about 100,000 hairs total, not per square inch.',
+    explanation:
+        'The human scalp has about 100,000 hairs total, not per square inch.',
   ),
   Question(
     text: 'The human body has about 1,000 different types of cells',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body has about 200 different types of cells, not 1,000.',
+    explanation:
+        'The human body has about 200 different types of cells, not 1,000.',
   ),
   Question(
     text: 'The human body has about 50,000 different types of proteins',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body produces approximately 50,000 different types of proteins.',
+    explanation:
+        'The human body produces approximately 50,000 different types of proteins.',
   ),
   Question(
     text: 'The human body has about 1,000 different types of enzymes',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body produces approximately 1,000 different types of enzymes.',
+    explanation:
+        'The human body produces approximately 1,000 different types of enzymes.',
   ),
   Question(
     text: 'The human body has about 100,000 different types of antibodies',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human immune system can produce approximately 100,000 different types of antibodies.',
+    explanation:
+        'The human immune system can produce approximately 100,000 different types of antibodies.',
   ),
   Question(
     text: 'The human body has about 1,000 different types of hormones',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body produces about 50 different types of hormones, not 1,000.',
+    explanation:
+        'The human body produces about 50 different types of hormones, not 1,000.',
   ),
   Question(
-    text: 'The human body has about 100,000 different types of neurotransmitters',
+    text:
+        'The human body has about 100,000 different types of neurotransmitters',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body produces about 100 different types of neurotransmitters, not 100,000.',
+    explanation:
+        'The human body produces about 100 different types of neurotransmitters, not 100,000.',
   ),
   Question(
     text: 'The human body has about 1,000 different types of receptors',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body has approximately 1,000 different types of receptors.',
+    explanation:
+        'The human body has approximately 1,000 different types of receptors.',
   ),
   Question(
     text: 'The human body has about 100,000 different types of genes',
@@ -321,21 +360,24 @@ const List<Question> _scienceQuestions = [
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Each cell produces about 10,000-20,000 different types of proteins, not 1,000.',
+    explanation:
+        'Each cell produces about 10,000-20,000 different types of proteins, not 1,000.',
   ),
   Question(
     text: 'The human body has about 100,000 different types of cells per organ',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Each organ typically has 10-50 different types of cells, not 100,000.',
+    explanation:
+        'Each organ typically has 10-50 different types of cells, not 100,000.',
   ),
   Question(
     text: 'The human body has about 1,000 different types of tissues',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body has 4 main types of tissues: epithelial, connective, muscle, and nervous.',
+    explanation:
+        'The human body has 4 main types of tissues: epithelial, connective, muscle, and nervous.',
   ),
   Question(
     text: 'The human body has about 100,000 different types of organs',
@@ -356,59 +398,73 @@ const List<Question> _scienceQuestions = [
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body contains approximately 100,000 different types of molecules.',
+    explanation:
+        'The human body contains approximately 100,000 different types of molecules.',
   ),
   Question(
     text: 'The human body has about 1,000 different types of atoms',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'The human body contains about 60 different types of atoms, not 1,000.',
+    explanation:
+        'The human body contains about 60 different types of atoms, not 1,000.',
   ),
   Question(
-    text: 'The human body has about 100,000 different types of chemical reactions',
+    text:
+        'The human body has about 100,000 different types of chemical reactions',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body performs approximately 100,000 different types of chemical reactions.',
+    explanation:
+        'The human body performs approximately 100,000 different types of chemical reactions.',
   ),
   Question(
-    text: 'The human body has about 1,000 different types of metabolic pathways',
+    text:
+        'The human body has about 1,000 different types of metabolic pathways',
     answer: true,
     category: 'Science',
     difficulty: 3,
-    explanation: 'The human body has approximately 1,000 different types of metabolic pathways.',
+    explanation:
+        'The human body has approximately 1,000 different types of metabolic pathways.',
   ),
   Question(
-    text: 'The human body has about 100,000 different types of enzymes per cell',
+    text:
+        'The human body has about 100,000 different types of enzymes per cell',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Each cell produces about 1,000-2,000 different types of enzymes, not 100,000.',
+    explanation:
+        'Each cell produces about 1,000-2,000 different types of enzymes, not 100,000.',
   ),
   Question(
-    text: 'The human body has about 1,000 different types of proteins per organ',
+    text:
+        'The human body has about 1,000 different types of proteins per organ',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Each organ produces about 10,000-20,000 different types of proteins, not 1,000.',
+    explanation:
+        'Each organ produces about 10,000-20,000 different types of proteins, not 1,000.',
   ),
   Question(
-    text: 'The human body has about 100,000 different types of cells per tissue',
+    text:
+        'The human body has about 100,000 different types of cells per tissue',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Each tissue typically has 1-10 different types of cells, not 100,000.',
+    explanation:
+        'Each tissue typically has 1-10 different types of cells, not 100,000.',
   ),
   Question(
     text: 'The human body has about 1,000 different types of organs per system',
     answer: false,
     category: 'Science',
     difficulty: 2,
-    explanation: 'Each organ system typically has 1-10 different organs, not 1,000.',
+    explanation:
+        'Each organ system typically has 1-10 different organs, not 1,000.',
   ),
   Question(
-    text: 'The human body has about 100,000 different types of systems per body',
+    text:
+        'The human body has about 100,000 different types of systems per body',
     answer: false,
     category: 'Science',
     difficulty: 2,
